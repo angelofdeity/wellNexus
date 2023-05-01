@@ -5,47 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3e43fbd96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="chat.css">
 </head>
 
 <body>
-    <aside class="dashboard">
-
-    </aside>
-    <section>
-        <header>
-            <div class="hero"></div>
-        </header>
-        <section>
-            <div>
-                <div>
+    <main class="flex">
+        <aside class="dashboard">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </aside>
+        <section class="right-body">
+            <div class="logo">
+                <img src="./images/image 2.png" alt="logo">
+            </div>
+            <div class="flex card-box">
+                <div class="flex card">
+                    <img class="blaq-icon" src="./images/blaq-icon.png" alt="black icon">
                     <h6>Capabilities</h6>
-                    <p>
+                    <p class="card-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <p>Readmore</p>
+                    <p class="readmore">Readmore
+                        <img src="./images/arrow.png" alt="">
+                    </p>
                 </div>
-                <div>
+                <div class="flex card">
+                    <img class="blaq-icon" src="./images/blaq-icon.png" alt="black icon">
                     <h6>Examples</h6>
-                    <p>
+                    <p class="card-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <p>Readmore</p>
+                    <p class="readmore">Readmore
+                        <img src="./images/arrow.png" alt="">
+                    </p>
                 </div>
-                <div>
+                <div class="flex card">
+                    <img class="blaq-icon" src="./images/blaq-icon.png" alt="black icon">
                     <h6>Limit</h6>
-                    <p>
+                    <p class="card-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <p>Readmore</p>
+                    <p class="readmore">Readmore
+                        <img src="./images/arrow.png" alt="right arrow">
+                    </p>
                 </div>
             </div>
-            <div class="chat-box">
-                <button title="enter" class="arrow"></button>
+            <div class="prompt-box">
+                <button title="enter" class="enter-btn">
+                    <img src="./images/enter-btn.png" alt="enter button">
+                </button>
             </div>
         </section>
-    </section>
-
+    </main>
 </body>
 
 </html>
